@@ -56,7 +56,7 @@
 			<value>root</value>
 		</property>
 		<property name="password">
-			<value>123</value>
+			<value>root</value>
 		</property>
 		<property name="maxPoolSize">
 			<value>80</value>
@@ -75,7 +75,7 @@
 	<!-- 配置session工厂 -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource"></property>
-		<property name="mapperLocations" value="classpath:com/easyui/mapping/*.xml"></property>
+		<property name="mapperLocations" value="classpath:mapperfile/*.xml"></property>
 	</bean>
 
 	<!-- mapper接口的扫描，必须扫描到接口，扫描的原则是：所有扫描进Spring的Mapper对象，它的命名规则： 首字母小写，后面的都是按照原有的接口名字定义。 

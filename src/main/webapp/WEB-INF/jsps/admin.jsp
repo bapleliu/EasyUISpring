@@ -21,7 +21,7 @@
 	<div class="logout">您好，<?php echo $_SESSION['admin']?> | <a href="admin/logout">退出</a></div>
 </div>   
 <div data-options="region:'south',title:'footer',split:true,noheader:true" style="height:35px;line-height:30px;text-align:center;">
-	&copy;2009-2015 瓢城 Web 俱乐部. Powered by PHP and EasyUI.
+	&copy;2009-2015 QD. Powered by QD.
 </div>    
 <div data-options="region:'west',title:'导航',split:true,iconCls:'icon-world'" style="width:180px;padding:10px;">
 <ul id="nav"></ul>

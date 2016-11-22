@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>客户信息管理</title>
+<title>小区信息管理</title>
 
 <!-- 对话框的样式 -->
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resources/easyui/themes/default/easyui.css">
@@ -42,21 +42,21 @@
 			<a href="javascript:void(0);" class="easyui-linkbutton"
 				iconCls="icon-reload" plain="true" onclick="reload();">刷新</a>
 			<a href="javascript:void(0);" class="easyui-linkbutton"
-				iconCls="icon-add" plain="true" onclick="addObject();">新增客户</a> 
+				iconCls="icon-add" plain="true" onclick="addObject();">新增小区</a> 
 			<a href="javascript:void(0);" class="easyui-linkbutton"
-				iconCls="icon-edit" plain="true" onclick="editObject();">编辑客户</a> 
+				iconCls="icon-edit" plain="true" onclick="editObject();">编辑小区</a> 
 			<a href="javascript:void(0);" class="easyui-linkbutton"
-				iconCls="icon-remove" plain="true" onclick="deleteObject();">删除客户</a>
+				iconCls="icon-remove" plain="true" onclick="deleteObject();">删除小区</a>
 		</div>
 
 		<!-- 添加/修改对话框 -->
 		<div id="dlg" class="easyui-dialog"
 			style="width:400px;height:280px;padding:10px 20px" closed="true"
 			buttons="#dlg-buttons">
-			<div class="ftitle">新增客户</div>
+			<div class="ftitle">新增小区</div>
 			<form id="fm" method="post" novalidate>
 				<div class="fitem">
-					<label>客户名称:</label> <input name="name" class="easyui-textbox"
+					<label>小区名称:</label> <input name="name" class="easyui-textbox"
 						required="true">
 				</div>
 				<div class="fitem">
@@ -88,7 +88,7 @@
 			buttons="#dlg-del-buttons">
 			<div class="ftitle">请谨慎操作</div>
 			<form id="fm" method="post" novalidate>
-					<label>确定删除客户吗？</label>
+					<label>确定删除小区吗？</label>
 			</form>
 		</div>
 		
